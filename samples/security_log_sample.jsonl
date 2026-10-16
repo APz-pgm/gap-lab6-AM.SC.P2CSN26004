@@ -1,0 +1,5 @@
+{"timestamp": "2026-10-16T13:33:03.318249+00:00", "run_id": "200f40e2c7c3", "event": "guardrail_input", "where": "main.py:sanitise_document", "detail": "Removed instruction-like content from 04_academic_integrity_deck.pptx"}
+{"timestamp": "2026-10-16T13:33:03.318249+00:00", "run_id": "200f40e2c7c3", "event": "instruction_ignored", "where": "main.py:sanitise_document", "detail": "Instruction-like content treated as untrusted data in 04_academic_integrity_deck.pptx"}
+{"timestamp": "2026-10-16T13:33:03.318249+00:00", "run_id": "200f40e2c7c3", "event": "guardrail_input", "where": "main.py:sanitise_document", "detail": "Removed instruction-like content from 06_exam_security_handbook.pdf"}
+{"timestamp": "2026-10-16T13:33:03.318249+00:00", "run_id": "200f40e2c7c3", "event": "instruction_ignored", "where": "main.py:sanitise_document", "detail": "Instruction-like content treated as untrusted data in 06_exam_security_handbook.pdf"}
+{"timestamp": "2026-10-16T13:33:03.324271+00:00", "run_id": "200f40e2c7c3", "event": "guardrail_output", "where": "main.py:valid_output", "detail": "Checked output schema, canary, topic, and source constraints"}
